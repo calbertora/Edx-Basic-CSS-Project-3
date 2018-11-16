@@ -1,0 +1,61 @@
+body {
+   background-color: #e3e0cf;
+   margin: 2em 10em 2em 10em;
+}
+
+h1 {
+   text-transform: uppercase;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 0.3em;
+   color: #3b3a36;
+   font-weight: normal;
+   text-align: center;
+}
+h2 {
+   color: #3b3a36;
+   font-style: italic;
+}
+h2:hover {
+   font-size: 2em;
+   text-transform: uppercase;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: lighter;
+   letter-spacing: 0.2em;
+}
+
+h3 {
+   color: #3b3a36;
+   background-color: #b3c2bf;   
+   padding: 0.4em;
+   font-style: italic;
+   
+   border-radius: 20px;
+}
+
+p {
+   color: #9fa8a3;
+}
+
+ul, ol {
+   border: 2px solid #c0dfd9;
+   background-color: #c5d5cb;
+}
+
+li {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 0.2em;
+   margin-left: 0.2em;
+   color: #7d4627;
+   font-size: 14px;
+   font-weight: 300;
+}
+
+.education, .experience {
+   padding-left: 3em;
+   border: 2px dashed #3b3a36;
+   margin: 0.1em;
+}
+
+#work:active {
+   background-color: #9fa8a3;
+}
